@@ -21,7 +21,7 @@
 <body>
 
     <!-- Navbar Section Start... -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top mb-5" id="navbar">
+	<nav class="navbar navbar-expand-lg text-center navbar-dark bg-primary fixed-top mb-5" id="navbar">
         <img src="./img/avatarLogo.png" alt="Avatar Logo" class="img-fluid ml-5" width="40">
         <a class="navbar-brand text-primary font-weight-bolder ml-2" href="#profile">Mjordan</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,8 +42,21 @@
                 <a class="nav-link" href="#contact">Contact</a>
               </li>
           </ul>
+          <ul class="navbar-nav" id="connectwith">
+            <li>
+              <a href="https://www.facebook.com/kylj.pascual" target="_blank">
+                <img src="./img/facebook.png" width="30" alt="Facebook account">
+              </a>
+              <a href="https://github.com/mjordanpascual" target="_blank">
+                <img src="./img/github.png" width="30" alt="Facebook account">
+              </a>
+              <a href="http://www.facebook.com/kylj_pascual" target="_blank">
+                <img src="./img/linkedin.png" width="30" alt="Facebook account">
+              </a>
+            </li>
+          </ul>
         </div>
-      </nav>
+  </nav>
       <!-- Navbar Section End... -->
 
       <!-- Main Content Section Start -->
@@ -51,12 +64,12 @@
           <div class="row" >
             <div class="pt-5 col-sm-12 mb-5 pb-5">
               <div class="mt-5 text-dark d-flex justify-content-center">
-                <h2 class="col-sm-12">Hi, <span class="text-primary">I am</span></h2>
+                <h2 class="col-sm-12">Hi, <a href="./img/tools/html.png"></a></span><span class="text-primary">I am</span></h2>
               </div>
                 <h1>Michael Jordan Pascual</h1>
                 <h3>Aspiring <span class="text-primary font-weight-bold"><em>Software Engineer</em></span></h3>
                 <h3><span class="text-primary font-weight-bold"> <em>MERN</em></span> Stack Developer</h3>
-                <div class="btn btn-primary border rounded">
+                <div class="btn btn-primary bord er rounded">
                   <a href="https://github.com/mjordanpascual" target="_blank" class="text-white text-decoration-none">Github</a>
                 </div>
                 <div class="btn btn-primary border rounded ml-auto">
@@ -67,10 +80,10 @@
       <!-- Main Content Section End -->
 
       <!-- About Me Section Start -->
-      <div class="container-fluid pt-5 bg-light" id="aboutme">
+      <div class="container-fluid pt-5 bg-light mb-5 pb-5" id="aboutme">
         <div class="row">
           <div class="pt-3 pb-3 col-sm-12 col-md-8 col-lg-8 order-2 order-md-2 order-lg-2 mt-auto mb-auto">
-              <h5 class="font-weight-bold text-center text-primary mb-3">ABOUT ME</h5>
+              <h5 class="font-weight-bold text-center text-primary mb-3" id="aboutmetitle">ABOUT ME</h5>
               <p class="text-justify">I am <span class="text-primary font-weight-bold">Michael Jordan Pascual </span>, graduate of <span class="text-primary font-weight-bold">Diploma in Computer & Electronics Technology </span> from STI College Parañaque Campus.
 
                 I am knowledgeable in <span class="text-primary font-weight-bold">MERN Stack </span> but I am willing to be trained and willing to learn new things and to adapt new skills and experience.</p>
@@ -85,9 +98,9 @@
 
       <div class="container-fluid bg-secondary pt-5 p-0 mb-5" id="gallery">
         <!-- Carousel Section Start -->
-        <div class="row border border-white rounded d-none d-md-block mt-md-5 bg-dark h-50 w-50">
-            <h5 class="text-center text-primary pt-3">GALLERY</h5>
-            <div class="offset-xl-3 col-xl-6">
+        <div class="row text-center border border-white rounded d-md-block mt-md-5 bg-dark h-50 w-50">
+            <h5 class="text-primary ml-auto mr-auto pt-3">GALLERY</h5>
+              <div class="offset-xl-3 col-xl-6">
               <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -165,10 +178,10 @@
 
       <!-- Skills Section Start -->
       <h5 class="p-3 text-primary bg-light p-0 m-0 mt-5 pt-5 mt-5 font-weight-bolder border rounded" id="skills">SKILLS AND KNOWLEDGE</h5>
-      <div class="container-fluid d-flex flex-md-column bg-light text-center mb-5 border rounded">
+      <div class="container-fluid d-flex flex-md-column bg-light text-center mb-5  border rounded">
             <div class="row justify-content-center">
                 <!-- HTML Card Start -->
-                <div class="col-sm-12 col-md-2 col-lg-">
+                <div class="col-sm-12 col-md-2 col-lg-2">
                     <img class="img-fluid p-1" src="./img/tools/html.png">
                     <h5 class="font-weight-bold">HTML</h5>
                 </div>
@@ -250,12 +263,12 @@
     <!-- Skills Section End -->
 
     <!-- Contact Section Start -->
-    <div class="container-fluid pt-5 mt-5 p-0 mb-5 pt-5" id="contact">
+    <div class="container-fluid border border-dark rounded pt-5 mt-5 p-0 pt-5" id="contact">
       <div class="row">
-        <div class="bg-white text-dark w-100">
+        <div class="text-dark w-100">
           <!-- Contact Form Section Start... -->
-          <div class="bg-dark text-light text-center p-3">
-            <h3 class="pb-3">Contact Me</h3>
+          <div class="text-light text-center p-3">
+            <h5 class="pb-3 text-dark">GET IN TOUCH</h5>
             <form action="#">
               <div class="bg-primary rounded col-md-6 p-3 ml-auto mr-auto">
                 <div class="form-group">
@@ -276,13 +289,12 @@
                 </div>
                 <div class="form-group">
                   
-                  <p href="#">Or Contact <a href="mailto:mjordanpascual@gmail.com" class="text-dark font-weight-bold"><em>mjordanpascual@gmail.com</em></a>  | 0906-150-1215 | 0991-229-5463</p>
+                  <p href="#">Or Contact <a href="mailto:mjordanpascual@gmail.com" class="text-dark font-weight-bold"><em>mjordanpascual@gmail.com</em></a>  0906-150-1215 | 0991-229-5463</p>
                 </div>
                 <button type="submit" class="bg-dark btn btn-primary">Send Email</button>
               </div>
             </form>
           </div>
-          <!-- Contact Form Section End... -->
         </div>
       </div>
     </div>
@@ -291,18 +303,16 @@
     <!-- Footer Section Start -->
     <div class="container-fluid p-0 m-0" id="footer">
       <div class="row justify-content-center">
-        <div class="bg-secondary text-white w-100">
+        <div class="bg-dark text-white font-weight-bold w-100">
             <div class="col-md-12 p-md-3 p-3">
-                <h5 class="mt-3 text-white font-weight-bold">Michael Jordan Pascual</h>
-                <h5>&#169; All Rights Reserved 2023</h5>
+                <h6 class="mt-3 text-white font-weight-bold">Michael Jordan Pascual</h6>
+                <h6>Copyright &#169; 2023. All Rights Reserved 2023</h6>
             </div>
         </div>
         
       </div>
-      
     </div>
     <!-- Footer Section Start -->
-
 
    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

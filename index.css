@@ -34,6 +34,10 @@ body {
     font-weight: bold;
 }
 
+h5 {
+    letter-spacing: 5px;
+}
+
 #aboutme > row {
     margin-top: 100px;
 }
@@ -41,7 +45,6 @@ body {
 #gallery {
     display: flex;
     justify-content: center;
-
 }
 
 #skills {
@@ -57,12 +60,17 @@ body {
     border: 1px solid red;
 }
 
-#footer {
-/*    display: inline-block;*/
+#wave {
+    animation: spin 2s infinite;
+    transform-origin: 52% 62%;
 }
 
-@media (max-width: 767px) {                  
+#connectwith, li a {
+    margin-right: 15px;
+}
+
+/*@media (max-width: 767px) {                  
    #gallery {
       display: none;
    }
-}
+}*/
