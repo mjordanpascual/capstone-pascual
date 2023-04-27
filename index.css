@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: white !important;
+    top: 0;
+}
+
+.navbar button span {
+    background-color: lightblue !important;
+}
+
+#navbarNav li {
+    padding-left: 2em;
+    margin-right: 25px;
+}
+
+#navbarNav li a {
+    color: #005fee !important;
+    font-weight: bold;
+}
+
+#navbarNav li a:hover {
+    color: #88b2f1 !important;
+    font-weight: bold;
+}
+
+#aboutme > row {
+    margin-top: 100px;
+}
+
+#gallery {
+    display: flex;
+    justify-content: center;
+
+}
+
+#skills {
+    margin-top: 50px;
+}
+
+.contact {
+    margin-top: 50px;
+}
+
+.card .card-body {
+    width: 15rem;
+    border: 1px solid red;
+}
+
+#footer {
+/*    display: inline-block;*/
+}
+
+@media (max-width: 767px) {                  
+   #gallery {
+      display: none;
+   }
+}
