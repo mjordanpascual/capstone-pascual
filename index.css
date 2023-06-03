@@ -84,10 +84,13 @@ h5 {
     }
  }
 
+<<<<<<< HEAD
  @media (max-width: 768px) {                  
     #skills, h5 {
        font-size: 10px;
     }
  }
 
+=======
+>>>>>>> ec1562fb81d6a76454712c2edc19eee1f7b4192e
 
