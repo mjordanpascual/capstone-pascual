@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: white !important;
+    top: 0;
+}
+
+.navbar button span {
+    background-color: lightblue !important;
+}
+
+#navbarNav li {
+    padding-left: 2em;
+    margin-right: 25px;
+}
+
+#navbarNav li a {
+    color: #005fee !important;
+    font-weight: bold;
+}
+
+#navbarNav li a:hover {
+    color: #88b2f1 !important;
+    font-weight: bold;
+}
+
+h5 {
+    letter-spacing: 5px;
+}
+
+#aboutme > row {
+    margin-top: 100px;
+}
+
+#gallery {
+    display: flex;
+    justify-content: center;
+    /* background-image: url("./img/bgckpexel"); */
+    background-color: red;
+}
+
+#skills {
+    padding-top: 100px;
+}
+
+.contact {
+    margin-top: 50px;
+}
+
+.card .card-body {
+    width: 15rem;
+    border: 1px solid red;
+}
+
+#wave {
+    animation: spin 2s infinite;
+    transform-origin: 52% 62%;
+}
+
+#connectwith li a {
+    margin-right: 15px;
+    text-decoration: none !important;
+}
+
+#connectwith li a img:hover {
+    border-radius: 50%;
+    background-color: rgba(35, 35, 35, 0.367);
+}
+
+@media (max-width: 768px) {                  
+    #gallery, h5 {
+       font-size: 11px;
+       padding-top: 0;
+    }
+ }
+
+<<<<<<< HEAD
+ @media (max-width: 768px) {                  
+    #skills, h5 {
+       font-size: 10px;
+    }
+ }
+
+=======
+>>>>>>> ec1562fb81d6a76454712c2edc19eee1f7b4192e
+
